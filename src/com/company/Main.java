@@ -160,6 +160,11 @@ public class Main {
     }
 
 
+    public static void GitTest(){
+        System.out.println("更新测试");
+    }
+
+
 
     //static：静态函数
     public static void main(String[] args) {
@@ -175,6 +180,10 @@ public class Main {
         //demoException();
         //demoCommon();
         demoClass();
+        GitTest();
+
+        System.out.println("更新后提交");
+
     }
 
 
